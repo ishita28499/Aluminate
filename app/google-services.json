@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "942872058661",
+    "firebase_url": "https://aluminate-d163c-default-rtdb.firebaseio.com",
+    "project_id": "aluminate-d163c",
+    "storage_bucket": "aluminate-d163c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:942872058661:android:ffcbde25160cdcc15a98cc",
+        "android_client_info": {
+          "package_name": "com.social.media"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "942872058661-kov549rq3lcokc4tqg8htg5jbt50gjsh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgPzAUBCeF6LZ7HyIp4Dbigj4OCTUlyCg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "942872058661-kov549rq3lcokc4tqg8htg5jbt50gjsh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

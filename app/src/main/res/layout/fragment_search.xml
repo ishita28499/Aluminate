@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".Fragment.SearchFragment">
+
+    
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:padding="10dp"
+        android:background="@color/dark"
+        android:hint="Search"
+        android:textColor="@color/black"
+        android:inputType="textCapSentences"
+        android:maxLines="1"
+        android:imeOptions="actionSearch"
+        android:id="@+id/inputSearch"
+        />
+    
+    <View
+        android:id="@+id/view10"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/darker_gray"
+        />
+
+    <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+        android:id="@+id/usersRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view10"
+        app:shimmer_demo_child_count="10"
+        app:shimmer_demo_layout="@layout/demo_follow" />
+</LinearLayout>
